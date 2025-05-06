@@ -1,83 +1,39 @@
-# Hello_C_Programming
+# Learn C with only Hello World!
 
-This is a roadmap of what I have, or will, create. If you are familiar with C programming, you can see that I'm following Beej's guide pretty closely in terms of content structure. I like this structure and presents things logically as to when you might encounter them.
+This repo will be (hopefully) an accompiament to a Youtube series I plan on doing.
 
-I've only currently created the foundations, so you should find hello_1 and hello_2 as folders with the example code in there. Do not just look at the example code! Write the code along with me in the videos! You need to make sure you are doing that as it is generally better to write code yourself than it is to watch someone else write it.
+# Hello, World?
 
-## Hello 1
+Okay, not *only* Hello World, but it will come close to it. Have you ever wanted to learn C but for some reason you needed something more esoteric than Beej's Guide to C Programming? You've come to the right place then.
 
-0. History and Purpose of C
-1. Variables and Statements
-2. Functions
+Hello World was first invented by none other than Dr. Brian Kernighan and Dr. Dennis Ritchie (Rest in Peace) in their amazing, and wonderful book "The C Programming Language." That is right, C is the foundation of your favoriate intro program!
 
-## Hello 2
+"Hello, World!" is more than just a simple first program, it is a perfect way to introduce program structure, how to use a method or function call, how to print data out to a screen, and how to exits your program successfully. In short, it should immediately make you familiar with the structure and syntax of the language all at a first glance.
 
-1. Pointers
-2. Arrays
-3. Strings
-4. Structures
-5. File I/O
+In the spirit of these wonderful pioneers, I asked myself a big question *"What if I taught the C programming language using increasingly more dumb, crazy, and otherwise esoteric 'Hello, World!' examples?"* What came about is... this whole mess.
 
-*Exercises 1 and 2*
+## Wait, Why C??
 
-## Hello 3
+**Because C scares people for some reason.* We've made a language that was once the high-level, state-of-the-art language become the bogeyman of computer science students everywhere, and I blame C++.
 
-1. typedef
-2. pointer arithmetic
-3. Manual Memory Allocation 1: Malloc and Free
-4. MMA 2: calloc and realloc
-5. Types 2
-6. types 3
-7. Types 4
+C is an amazing language, null pointers be darned, for several different reasons:
 
-*Exercises 3 and 4*
+1. It is simple and lightweight in its syntax Compare C++, which has 93 reserved keywords, C# has 102, and c only has *drumroll please* 23.That's it.
+2. You don't have to know anything outside of standard procedural programming. No objects, no classes, no weird pure functional programming monad junk. Just straight, down-to-the-metal procedural programming.
+3. Because it is so barebones, you can focus directly on learning the core of what makes programming, programming. If you want an algorithm, you get to build it yourself. If you need a data structure, you get to learn how to build it yourself!
+4. You are forced to learn how to manage your memory manually and thus learn the art and pain of dealing with pointers, heaps, stacks, etc.
+5. Because it is also the basis of just about every operating system and bare-metal system, you also get to learn how computer systems at the same time.
 
-## Hello 4
+Notice that I say "get to" and not "have to." **It is a JOY to learn.** You get to build something you probably take for granted, how exciting! Treat this as a chance to learn, something you have the time, energy, and space to do. Never deny yourself the opprotunity to be curious.
 
-1. Multifiles
-2. Outside Environment
-3. Preprocessor 1: Simple Macros
-4. preprocessor 2: Conditional Compilation
-5. preporcessor 3: Built-in Macros
-6. preprocessor 4: Bigger Macros
-7. preprocessor 5: error, embed, pragma, line, null
-8. Review of the preprocessor
+## The Structure
 
-*Exercises 5 and 6*
+The ROADMAP.md file shows you exactly what lessons we will be doing at which point. If you can see how I've laid it out, you will see that I'm following [Beej's Guide to the C Programming Language](https://beej.us/guide/bgc/html/split/index.html). His resource on this is amazing, down-to-earth, and well-written. You should use his series in conjunction with what I do.
 
-## Hello 5
+I've also included a folder of exercises you should do and when. They are structured in a way that you should't encounter anything you haven't learned yet. These exercises aren't 'Hello, World" necessarily, but I want to help you to be successful.
 
-1. Structs 2
-    1b. Fake OOP
-2. Bit-Fields
-3. Unions
-4. Getting the Band Together
-5. Characters and Strings 2: The String Strikes Back
-6. Enums
-7. Pointers, Pointers, Pointers
-8. Bitwise
+## How To Use
 
-*Exercises 7 and 8*
+Feel free to clone this and work with the exercises directly on your local machine. If you notice an error or a bad example, please feel free to fork, make the adjustment, open a PR, and I will happily take your adjustments.
 
-## Hello 6
-
-1. Variadic Functions
-2. Locale and Internationalization
-3. Unicode and friends
-4. exiting a program
-5. Signal Handles
-6. Variable-length arrays
-7. goto
-8. Types Part V: The Type Strikes Back
-
-## Hello 7
-
-1. Arrays Part 2
-2. Long Jumps
-3. Incomplete Types
-4. Complex Numbers
-5. Fixed Width Integer Types
-6. Date and Time Functionality
-7. Multithreading
-8. Atomics
-9. Function specifiers, Alignment Specifiers and Operations.
+Happy learning and Hello, World!
